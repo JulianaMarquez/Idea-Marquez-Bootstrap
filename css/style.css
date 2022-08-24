@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-item a {
+    background-color:#9e57ce;
+}
+
+.nav-item a:hover{
+    background-color: #af71d8ed;
+}
+
+body{
+    background-color: rgba(234, 216, 251, 0.868);
+}
+
+
+.bg-blue {
+    background-color:#9e57ce;
+    
+}
+
+.btn-primary {
+    background-color:#915ce8; 
+    border: #6610f2;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover{
+    background-color: #6610f2;
+    transform: scale(1.1);
+}
+
+/*Modificaciones del Footer*/
+footer {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: smaller;
+    line-height: 1.3;
+    padding: 5px;
+    background-color: #9e57ce;
+}
+
+.bi-instagram {
+    text-decoration: none;
+    color: white;
+}
+
+.bi-instagram:hover{
+    color:  rgba(255, 255, 255, 0.415);
+}
+
+.bi-facebook {
+    text-decoration: none;
+    color: white;
+}
+
+.bi-facebook:hover{
+    color:  rgba(255, 255, 255, 0.415);
+}
+
+.bi-tiktok {
+    text-decoration: none;
+    color: white;
+}
+
+.bi-tiktok:hover {
+    color:  rgba(255, 255, 255, 0.415);
+}
+
+.bi-c-circle{
+    color: white;
+}

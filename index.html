@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/sunset.png" type="image/x-icon">
+    
+    <!--se agregan fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Tangerine&display=swap" rel="stylesheet">
+    
+    <title>WanderWorldSouls</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    
+    <!--se agregan Icons de Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--Mis Estilos-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="bg-blue" style="height: 80px;">
+        <nav class="navbar navbar-expand-lg bg-blue fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand fs-2" style="color: white;" href="index.html">WanderWorldSouls</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" style="color: white;" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="./pages/aboutus.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="./pages/travel-destinations.html">Travel Destinations</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="./pages/our-country.html">Our Country-ARG</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="./pages/contactus.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section>
+        <div class="container-fluid">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner height: 100px">
+              <div class="carousel-item active">
+                <img src="./images/cambodiaintro.jpg" class="d-block w-100" alt="cambodia">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/mar intro.jpg" class="d-block w-100" alt="Calafate">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/sunsetintro.jpg" class="d-block w-100" alt="sunset">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/intromar.jpg" class="d-block w-100" alt="phili">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+    </section>
+
+    <main class="d-flex justify-content-center mt-5 mb-4">
+        <div class="card mb-3" style="max-width: 50%; max-height: fit-content;">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <img src="./images/mdq.jpg" class="img-fluid rounded-start" alt="mdq">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">BIENVENIDA</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo deleniti, accusantium ad ratione error nesciunt! Inventore earum provident, dignissimos neque sunt similique culpa rem? Voluptatibus fugit molestiae cum amet neque nesciunt sed. Incidunt dignissimos eligendi aperiam ducimus laudantium, voluptates consectetur sint pariatur quae quia repellat debitis, commodi qui odio omnis!</p>
+              <a href="./pages/aboutus.html" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    </main>
+
+    <footer style="color: white; text-align: center;">
+            <p class="fw-bold">Connect With Us On:</p>
+            <p><a href="#" target="_blank"><i class="bi bi-instagram fs-6"></i></a> Instagram</p>
+            <p><a href="#" target="_blank"><i class="bi bi-facebook fs-6"></i></a> Facebook</p>
+            <p><a href="#" target="_blank"><i class="bi bi-tiktok fs-6"></i></a> Tiktok</p>
+            <p class="fw-bold">Copyright <i class="bi bi-c-circle"></i> Wander World Souls</p>
+            <div class="position-fixed bottom-0 end-0 p-2">
+                <a href="#" target="_blank"><img class="insta" src="./images/insta.png" alt="insta" height="40px"></a>
+            </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+
+</html>
