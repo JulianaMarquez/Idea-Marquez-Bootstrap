@@ -128,7 +128,7 @@ footer {
 }
 
 @media only screen and (max-width:550px){
-    #header-nav, #header-about, #header-full, #gal-full, #arg-full, #bsas-full, #camp-full, footer {
+    #header-nav, #header-about, #header-full, #gal-full, #arg-full, #bsas-full, #camp-full, .foot {
         width: 100vh;
     }
 }
