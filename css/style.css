@@ -134,9 +134,13 @@ footer {
     }
 
     .images{
-        height: 80%;
+        height: 80em;
         width: 80%;
-        
+        margin-bottom: 5px;
+    }
+
+    .iframe {
+        width: fit-content;
     }
 
     #about{
@@ -151,5 +155,4 @@ footer {
         align-content: center;
         align-items: center;
     }
-
 }
