@@ -3,6 +3,7 @@
     padding: 0px;
 }
 
+/*nav*/
 .nav-item a {
     background-color:#9e57ce;
 }
@@ -11,25 +12,63 @@
     background-color: #af71d8ed;
 }
 
+#brand {
+    color: white;
+}
+
+#brand:hover {
+    color: rgba(255, 255, 255, 0.711);
+}
+
+/*fondo del body en general */
 body{
     background-color: rgba(234, 216, 251, 0.868);
 }
 
+/*animaciones de cada pagina*/
+.bienvenida {
+    animation-name: bienvenida;
+    animation-iteration-count:initial;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes bienvenida {
+    0%{
+    opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/*formato index*/
+.carousel-item {
+    height: 98vh;
+}
 
 .bg-blue {
     background-color:#9e57ce;
-    
 }
 
+
+/*estilo para about us*/
+.hey {
+    background-image: linear-gradient(to right,rgba(247,19,19,1) 0%, rgba(255,200,22,1) 18%, rgba(255,242,19,1) 38%, rgba(183,255,26,1) 57%, rgba(18,196,245,1) 79%, rgba(207,40,255,1) 100%);
+    padding: 5px;
+    border-radius: 40px;
+}
+
+/*botones del sitio*/
 .btn-primary {
-    background-color:#915ce8; 
-    border: #6610f2;
+    background-color:#9368d8; 
+    border: #5724a9;
     transition: all 0.2s ease-in-out;
 }
 
 .btn-primary:hover{
-    background-color: #6610f2;
-    transform: scale(1.1);
+    background-color: #ba98f0;
+    transform: scale(1.05);
 }
 
 /*Modificaciones del Footer*/
@@ -71,4 +110,25 @@ footer {
 
 .bi-c-circle{
     color: white;
+}
+
+/*media querie*/
+@media only screen and (max-width:1200px){
+    #about{
+        font-size: larger;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+
+    }
+}
+
+@media only screen and (max-width:550px){
+    #header-nav, #header-about, #header-full, #gal-full, #arg-full, #bsas-full, #camp-full, footer {
+        width: 100vh;
+    }
 }
