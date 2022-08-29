@@ -127,8 +127,29 @@ footer {
     }
 }
 
-@media only screen and (max-width:550px){
-    #header-nav, #header-about, #header-full, #gal-full, #arg-full, #bsas-full, #camp-full, .foot {
-        width: 100vh;
+@media only screen and (max-width:500px){
+ 
+    .carousel-item {
+        height:max-content;
     }
+
+    .images{
+        height: 80%;
+        width: 80%;
+        
+    }
+
+    #about{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #camp-full{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
 }
