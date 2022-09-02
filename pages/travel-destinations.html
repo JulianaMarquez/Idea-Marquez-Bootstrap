@@ -12,7 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Tangerine&display=swap" rel="stylesheet">
     
     <title>WanderWorldSouls</title>
+    <!--aos-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     
     <!--se agregan Icons de Bootstrap-->
@@ -23,6 +26,8 @@
 
 <body>
     <header class="bg-blue">
+
+      <!--enlaces para navegar por el sitio incluyendo logo-->
         <nav class="navbar navbar-expand-lg bg-blue fixed-top">
             <div class="container-fluid">
                 <a id="brand" class="navbar-brand fs-2" href="../index.html">WanderWorldSouls</a>
@@ -32,19 +37,19 @@
               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" style="color: white;" aria-current="page" href="../index.html">Home</a>
+                    <a class="nav-link" href="../index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" style="color: white;" href="../pages/aboutus.html">About Us</a>
+                    <a class="nav-link" href="../pages/aboutus.html">About Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" style="color: white;" href="../pages/travel-destinations.html">Travel Destinations</a>
+                    <a class="nav-link" href="../pages/travel-destinations.html">Travel Destinations</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" style="color: white;" href="../pages/our-country.html">Our Country-ARG</a>
+                    <a class="nav-link" href="../pages/our-country.html">Our Country-ARG</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" style="color: white;" href="../pages/contactus.html">Contact Us</a>
+                    <a class="nav-link" href="../pages/contactus.html">Contact Us</a>
                   </li>
                 </ul>
               </div>
@@ -52,9 +57,10 @@
         </nav>
     </header>
 
-    <div class="bienvenida container-fluid text-center mb-3 mt-5 pt-4" style="background-color: rgb(199, 88, 209);">
-        <div class="d-flex justify-content-center align-items-center" style="height:60px;">
-          <h5 style="color: white">Gallery</h5>
+    <!--galeria de fotos-->
+    <div id="galeria" class="bienvenida container-fluid text-center mb-3 mt-5 pt-5">
+        <div class="d-flex justify-content-center align-items-center">
+          <h5>Gallery</h5>
         </div>
     </div>
 
@@ -131,7 +137,7 @@
 
     <!--Quote-->
     <div data-aos="fade-up" class="container p-4">
-        <div class="card" style="background-color: rgba(171, 171, 233, 0.693);">
+        <div id="quote" class="card">
             <div class="card-header">
               Quote
             </div>
@@ -145,19 +151,21 @@
     </div>
 
     <!--Footer-->
-    <footer class="foot" style="color: white; text-align: center;">
-            <p class="fw-bold">Connect With Us On:</p>
-            <p><a href="#" target="_blank"><i class="bi bi-instagram fs-6"></i></a> Instagram</p>
-            <p><a href="#" target="_blank"><i class="bi bi-facebook fs-6"></i></a> Facebook</p>
-            <p><a href="#" target="_blank"><i class="bi bi-tiktok fs-6"></i></a> Tiktok</p>
-            <p class="fw-bold">Copyright <i class="bi bi-c-circle"></i> Wander World Souls</p>
+    <footer class="foot">
+      <p class="bold">Connect With Us On:</p>
+      <p><a href="#" target="_blank"><i class="bi bi-instagram fs-6"></i></a> Instagram</p>
+      <p><a href="#" target="_blank"><i class="bi bi-facebook fs-6"></i></a> Facebook</p>
+      <p><a href="#" target="_blank"><i class="bi bi-tiktok fs-6"></i></a> Tiktok</p>
+      <p class="bold">Copyright <i class="bi bi-c-circle"></i> Wander World Souls</p>
     </footer>
 
+    <!--bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!--aos-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
-    </script> 
-    </body>
+    </script>
+  </body>
 
 </html>

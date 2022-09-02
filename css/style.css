@@ -4,13 +4,6 @@
 }
 
 /*nav*/
-.nav-item a {
-    background-color:#9e57ce;
-}
-
-.nav-item a:hover{
-    background-color: #af71d8ed;
-}
 
 #brand {
     color: white;
@@ -19,6 +12,77 @@
 #brand:hover {
     color: rgba(255, 255, 255, 0.711);
 }
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color:white;
+    background-color: #af71d8ed;
+}
+
+/*formato index*/
+.carousel-item {
+    height: 90vh;
+}
+
+.bg-blue {
+    background-color:#9e57ce;
+}
+
+
+/*grid index*/
+#contenedor-index{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75px 1fr 1fr 200px;
+    grid-template-areas:
+    "hi hi"
+    "section section"
+    "main main"
+    "fi fi";
+}
+
+#header-index{
+    grid-area: hi;
+}
+
+#section-index{
+    grid-area: section;
+}
+
+#main-index{
+    grid-area: main;
+}
+
+#footer-index{
+    grid-area: fi;
+}
+
+/*grid about us*/
+#contenedor-about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75px 1fr 200px;
+    grid-template-areas:
+    "header header"
+    "section-a section-a"
+    "footer footer";
+}
+
+#header-about{
+    grid-area: header;
+}
+
+#section-about{
+    grid-area: section-a;
+}
+
+#footer-about{
+    grid-area: footer;
+}
+
 
 /*fondo del body en general */
 body{
@@ -42,21 +106,38 @@ body{
     }
 }
 
-/*formato index*/
-.carousel-item {
-    height: 98vh;
-}
-
-.bg-blue {
-    background-color:#9e57ce;
-}
-
 
 /*estilo para about us*/
 .hey {
     background-image: linear-gradient(to right,rgba(247,19,19,1) 0%, rgba(255,200,22,1) 18%, rgba(255,242,19,1) 38%, rgba(183,255,26,1) 57%, rgba(18,196,245,1) 79%, rgba(207,40,255,1) 100%);
     padding: 5px;
     border-radius: 40px;
+}
+
+/*our country*/
+#arg{
+    background-color: rgb(72, 159, 229);
+    height:60px;
+    color: white;
+}
+
+#bsas{
+    background-color: rgb(156, 189, 255);
+}
+
+#camp{
+    background-color: rgb(208, 223, 249);
+}
+
+/*travel destinations*/
+#galeria{
+    background-color: rgb(199, 88, 209);
+    height: 85px;
+    color: white;
+}
+
+#quote{
+    background-color: rgba(171, 171, 233, 0.693);
 }
 
 /*botones del sitio*/
@@ -73,12 +154,18 @@ body{
 
 /*Modificaciones del Footer*/
 footer {
+    color: white;
+    text-align: center;
     font-family:'Courier New', Courier, monospace;
     font-weight: 500;
     font-size: smaller;
     line-height: 1.3;
     padding: 5px;
     background-color: #9e57ce;
+}
+
+.bold{
+    font-weight: bold;
 }
 
 .bi-instagram {
